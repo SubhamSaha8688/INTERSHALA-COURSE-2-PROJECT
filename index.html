@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <input type="checkbox" checked id="dark_mode_toggle" class="dark_mode_toggle" />
+    <div class="wrapper">
+        <header>
+            <div class="logo">SS</div>
+            <nav>
+                <input type="checkbox" id="nav_toggle" class="nav_toggle" />
+                <label for="nav_toggle" class="nav_toggle_label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav_links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <label for="dark_mode_toggle" class="dark_mode_label">
+                <span class="moon">🌙</span>
+                <span class="sun">☀️</span>
+            </label>
+        </header>
+
+        <main>
+            <section id="home">
+                <div class="content">
+                    <h1>Hi, <br> My Name Is <strong>Subham Saha</strong> <br>
+                        I Build Thinks For Web</h1>
+                    <div class="cta_buttons">
+                        <a href="#contact" class="btn primary_btn">Hire Me</a>
+                        <a href="pdf/J2.0.pdf" class="btn secondary_btn" download="resume">Download CV</a>
+                    </div>
+                </div>
+                <div class="profile_image">
+                    <img src="images/subham.jpg" alt="Subham Saha" />
+                </div>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <div class="about_content">
+                    <img src="images/subham.jpg" alt="Subham Saha" />
+                    <div>
+                        <p>
+                            I am a graduate student of Lovely Professional University,
+                            passionate about creating beautiful and functional web
+                            experiences. With a keen eye for design and a love for clean
+                            code, I strive to bridge the gap between aesthetics and
+                            functionality.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>My Skills</h2>
+                <div class="skills_content">
+                    <div class="skill">
+                        <div class="skill_name">HTML</div>
+                        <div class="skill_bar">
+                            <div class="skill_level" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_name">CSS</div>
+                        <div class="skill_bar">
+                            <div class="skill_level" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_name">JavaScript</div>
+                        <div class="skill_bar">
+                            <div class="skill_level" style="width: 40%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_name">React</div>
+                        <div class="skill_bar">
+                            <div class="skill_level" style="width: 20%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_name">Java</div>
+                        <div class="skill_bar">
+                            <div class="skill_level" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_name">MySQL</div>
+                        <div class="skill_bar">
+                            <div class="skill_level" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="certifications">
+                <h2>Certifications</h2>
+                <div class="cert_container">
+                    <div class="cert_card">
+                        <h3>Web Development</h3>
+                        <p>Started Course in Intershala</p>
+                        <a href="pdf/Full Stack Development_ Let's begin Training.pdf" target="_blank" class="btn cert_btn">View Certificate</a>
+                    </div>
+                    <div class="cert_card">
+                        <h3>Java Programming</h3>
+                        <p>Advanced Java programming certification</p>
+                        <a href="pdf/CIPHER_SHOOL_JAVA.pdf" class="btn cert_btn" target="_blank">View Certificate</a>
+                    </div>
+                    <div class="cert_card">
+                        <h3>DSA</h3>
+                        <p>DSA IN Java</p>
+                        <a href="pdf/GEEKS_FOR_GEEKS_DSA.pdf" class="btn cert_btn" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>My Projects</h2>
+                <div class="project_container">
+                    <div class="project_card">
+                        <img src="images/project.png" alt="blog" />
+                        <h3>My Blog</h3>
+                        <p>
+                            A fully functional travel website built with html and
+                            CSS
+                        </p>
+                    </div>
+                    <div class="project_card">
+                        <img src="images/project.png" alt="Task Management App" />
+                        <h3>Task Management App</h3>
+                        <p>
+                            A fully functional travel website built with html and
+                            CSS
+                        </p>
+                    </div>
+                    <div class="project_card">
+                        <img src="images/project.png" alt="Portfolio Website" />
+                        <h3>Portfolio Website</h3>
+                        <p>
+                            A fully functional travel website built with html and
+                            CSS
+                        </p>
+                    </div>
+                    <div class="project_card">
+                        <img src="images/project.png" alt="Weather App" />
+                        <h3>Weather App</h3>
+                        <p>
+                            A weather application using OpenWeatherMap API and JavaScript
+                        </p>
+                    </div>
+                    <div class="project_card">
+                        <img src="images/project.png" alt="Blog Platform" />
+                        <h3>Blog Platform</h3>
+                        <p>
+                            A full-stack blog platform with user authentication and CRUD
+                            operations
+                        </p>
+                    </div>
+                    <div class="project_card">
+                        <img src="images/project.png" alt="Chat Application" />
+                        <h3>Chat Application</h3>
+                        <p>Real-time chat application using Socket.io and Express</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Get In Touch</h2>
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required />
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn primary_btn">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer_content">
+                <div class="contact_info">
+                    <a href="tel:+918897943703" class="btn">Call Me</a>
+                    <a href="saha88979@gmail.com" class="btn">Email Me</a>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/profile.php?id=100020676091576" target="_blank"><img
+                            src="images/facebook.svg" alt="Facebook" /></a>
+                    <a href="https://x.com/SubhamS06447667" target="_blank"><img src="images/twitter.svg"
+                            alt="Twitter" /></a>
+                    <a href="https://www.instagram.com/subhamsaha_9912/" target="_blank"><img src="images/instagram.svg"
+                            alt="Instagram" /></a>
+                    <a href="https://in.pinterest.com/saha88979/" target="_blank"><img src="images/pinterest.svg"
+                            alt="Pinterest" /></a>
+                </div>
+            </div>
+            <p>&copy; 2024 Subham Saha. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
+
